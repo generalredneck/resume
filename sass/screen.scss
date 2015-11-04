@@ -4,3 +4,32 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+@import "base";
+
+body {
+  background-image: url('../images/denim.jpg')
+}
+#wrapper {
+  max-width: 978px;
+  margin: 0 auto;
+}
+
+#header {
+  color: #ffffff;
+}
+
+#content {
+  background-color: #ffffff;
+}
+
+section {
+  background-color: #ececec;
+  box-shadow: 0px 1px 5px #a8a8a8;
+  header {
+
+  }
+}
+
+#skills-table .fa-star {
+  color: #f6c500;
+}

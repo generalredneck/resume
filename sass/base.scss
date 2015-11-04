@@ -1,0 +1,182 @@
+/* Shared styles */
+@import "compass/utilities/general/clearfix";
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(https://fonts.googleapis.com/css?family=Francois+One);
+
+body {
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Permanent Marker', cursive;
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+h2 {
+  font-size: 175%;
+}
+
+h3 {
+  font-size: 150%;
+}
+
+hr {
+  color: #a8a8a8;
+  border-color: #a8a8a8;
+}
+
+#logo {
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+  float: left;
+}
+
+#logo-wrapper {
+  @include clearfix;
+}
+
+#header {
+  padding: 15px;
+}
+
+.info {
+  font-family: 'Francois One', sans-serif;
+  text-transform: uppercase;
+  padding-left: 15px;
+  float: left;
+  line-height: 1.5em;
+  .fa {
+    width: 20px;
+  }
+}
+
+#acquia-badge {
+  float: right;
+}
+
+#position {
+  text-align: center;
+}
+
+#content {
+  padding: 15px;
+}
+
+section {
+  border-radius: 10px;
+  margin: 10px 10px 20px 10px;
+  padding: 15px;
+  header {
+    text-align: center;
+  }
+}
+
+#skills-table {
+  width: 100%;
+  th {
+    padding-left: 10px;
+  }
+  td {
+    border-right: 1px solid #a8a8a8;
+    width: 120px;
+  }
+  td:last-of-type {
+    border-right-width: 0;
+  }
+}
+
+#stats-table {
+  width: 100%;
+  td, th {
+    padding: 0 10px;
+    border-right: 1px solid #a8a8a8;
+    text-align: center;
+  }
+
+  th {
+    font-weight: bold;
+    font-size: 150%;
+  }
+
+  td:last-of-type, th:last-of-type {
+    border-right-width: 0;
+  }
+}
+
+#recommendations-table {
+  width: 100%;
+  td {
+    padding: 0 10px;
+    border-right: 1px solid #a8a8a8;
+    width: 50%;
+  }
+  td:last-of-type {
+    border-right-width: 0;
+  }
+}
+
+.daily-duties, .consultant {
+  width: 50%;
+  float: left;
+}
+
+q, blockquote {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+q:before, blockquote:before {
+  content: open-quote;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3em;
+  line-height: 0.1em;
+  margin-right: 0.1em;
+  vertical-align: -0.4em;
+}
+q:after, blockquote:after {
+  content: close-quote;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3em;
+  line-height: 0.1em;
+  vertical-align: -0.4em;
+  position: relative;
+  top: 0.15em;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.attribution {
+  float: right;
+  width: 150px;
+}
+
+.location, .duration {
+  clear: right;
+  float: right;
+  font-family: 'Francois One', sans-serif;
+  .fa {
+    width: 20px;
+  }
+}
+
+job {
+  padding: 15px 0;
+  display: block;
+  border-bottom: 1px solid #a8a8a8;
+  @include clearfix;
+}
+
+job:last-of-type {
+  border-bottom: none;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 1em;
+}
