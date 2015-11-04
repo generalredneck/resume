@@ -1,4 +1,5 @@
 /* Shared styles */
+@import "compass/reset";
 @import "compass/utilities/general/clearfix";
 @import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
 @import url(https://fonts.googleapis.com/css?family=Francois+One);
@@ -178,5 +179,5 @@ job:last-of-type {
 
 ul {
   list-style-type: disc;
-  margin-left: 1em;
+  margin-left: 1.2em;
 }

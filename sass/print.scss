@@ -4,6 +4,44 @@
 
  @import "base";
 
+body {
+  font-size: .80em;
+}
+
 section {
   margin: 0;
+}
+
+#acquia-badge {
+  width: 100px;
+  height: 100px;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+}
+
+#content {
+  padding: 0;
+}
+
+#header, section {
+  padding-bottom: 0;
+}
+
+table {
+  font-size: inherit;
+}
+
+#skills-table td {
+  width: 80px;
+}
+
+#recommendations {
+  page-break-after: always;
+}
+
+job {
+  page-break-inside: avoid;
 }
